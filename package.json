@@ -1,0 +1,28 @@
+{
+  "name": "chatangle-full-stack",
+  "version": "1.0.0",
+  "description": "A package that easily deploys Chatangle, full stack, with npm.",
+  "scripts": {
+    "start": "node ./bin/www",
+    "debugWindows": "node %NODE_DEBUG_OPTION% ./bin/www"
+  },
+  "dependencies": {
+    "bolero-chatangle.lib": "git+https://github.com/pRizz/bolero-chatangle.lib.git"
+  },
+  "bin": {
+    "chatangle-full-stack": "bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pRizz/chatangle-full-stack.git"
+  },
+  "keywords": [
+    "iota"
+  ],
+  "author": "Peter Ryszkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pRizz/chatangle-full-stack/issues"
+  },
+  "homepage": "https://github.com/pRizz/chatangle-full-stack#readme"
+}
