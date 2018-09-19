@@ -1,13 +1,15 @@
 {
   "name": "chatangle-full-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that easily deploys Chatangle, full stack, with npm.",
   "scripts": {
     "start": "node ./bin/www",
-    "debugWindows": "node %NODE_DEBUG_OPTION% ./bin/www"
+    "debug:Windows": "node %NODE_DEBUG_OPTION% ./bin/www",
+    "build:docker": "docker build -t prizz/chatangle-full-stack .",
+    "push:docker": "docker push prizz/chatangle-full-stack"
   },
   "dependencies": {
-    "bolero-chatangle.lib": "git+https://github.com/pRizz/bolero-chatangle.lib.git"
+    "bolero-chatangle.lib": "^1.0.1"
   },
   "bin": {
     "chatangle-full-stack": "bin/www"
