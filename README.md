@@ -13,6 +13,7 @@ Ensure that these ports are open for these purposes:
 |    TCP   | 15600 | Nelson Node Neighboring |
 |    TCP   | 16600 |     Nelson Node API     |
 |    TCP   |  8085 |   Chatangle Front End   |
+|    TCP   |  8008 |   Chatangle Back End   |
 
 # Installation Instructions
 
