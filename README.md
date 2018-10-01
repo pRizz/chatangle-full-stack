@@ -21,6 +21,12 @@ There are a few ways to install and run this. The recommended way is to use the 
 
 ## Docker Installation
 
+First, have docker installed. Then run:
+
+```bash
+sudo docker run -d -p 14265:14265 -p 14600:14600 -p 14600:14600/udp -p 15600:15600 -p 16600:16600 -p 8085:8085 -p 8008:8008 prizz/chatangle-full-stack
+```
+
 ## NPM Installation
 
 ### NPM Installation From NPM
